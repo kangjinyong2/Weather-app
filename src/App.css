@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg");
+  background-size: cover;
+}
+.box {
+  border: 3px solid white;
+  width: 30em;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.celsius {
+  color: blueviolet;
+}
+.Fahrenheit {
+  color: red;
+}
+.cloud {
+  color: blue;
+}
+.button Button {
+  margin: 5px;
+}
+.button {
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
